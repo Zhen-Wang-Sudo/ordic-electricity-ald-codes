@@ -825,7 +825,7 @@ for i, (area_idx, area_name) in enumerate(areas):
     
     ax.set_xlabel(area_name, fontweight='bold', labelpad=8) 
     if i % 2 == 0: 
-        ax.set_ylabel('The LMP', fontweight='bold', labelpad=12) 
+        ax.set_ylabel('The MCP', fontweight='bold', labelpad=12) 
     
     ax.grid(True, linestyle='--', alpha=0.6, linewidth=1.0) 
 
@@ -860,7 +860,7 @@ for i, (line_idx, line_label) in enumerate(lines_info):
     
     ax.set_xlabel(line_label, fontweight='bold', labelpad=8)
     if i % 2 == 0: 
-        ax.set_ylabel('The congestion price', fontweight='bold', labelpad=12)
+        ax.set_ylabel('The FTR', fontweight='bold', labelpad=12)
     
     ax.grid(True, linestyle='--', alpha=0.6, linewidth=1.0)
 
